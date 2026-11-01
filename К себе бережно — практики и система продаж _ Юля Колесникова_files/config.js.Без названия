@@ -1,0 +1,7 @@
+// Single configuration: use mode 'manual' and manualTier 0–3 for manual pricing.
+window.SITE_CONFIG = {
+ mode:'auto', manualTier:0,
+ PAYMENT_URL_FOREIGN:'https://app.lava.top/products/75081164-daa8-4107-91b6-67a5bfd3730a', PAYMENT_URL_STANDARD:'https://payform.ru/h4cVy2h/', PAYMENT_URL_FEEDBACK:'https://payform.ru/i5cVy2P/',
+ schedule:[['2026-11-02',3490],['2026-11-03',3990],['2026-11-04',4990],['2026-11-05',5490]],
+ feedbackExtra:2000, bonusEnd:'2026-11-06'
+};
