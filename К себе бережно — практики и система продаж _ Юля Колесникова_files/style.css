@@ -55,14 +55,14 @@ section h2{font-style:italic;color:#B33555}
 
 .hero-price .amount{font-size:39px}@media(max-width:560px){.hero-price .amount{font-size:35px}}
 
-.format-pattern{background-color:var(--cream);background-image:url('assets/format-pattern.webp');background-size:620px auto;background-repeat:repeat;background-position:center}.format-pattern .wrap{position:relative}
+.format-pattern{background-color:var(--cream);background-image:url('format-pattern.webp');background-size:620px auto;background-repeat:repeat;background-position:center}.format-pattern .wrap{position:relative}
 
 .section-divider{width:100%;line-height:0}.section-divider img{display:block;width:100%;height:auto}@media(max-width:560px){.section-divider img{height:64px;object-fit:cover;object-position:center}}
 @media(max-width:560px){.cases-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.case-card{min-width:0;overflow-wrap:anywhere}}
 
 /* Pattern at 30% opacity while keeping text fully opaque */
 .format-pattern{position:relative;isolation:isolate;background-image:none}
-.format-pattern:before{content:'';position:absolute;inset:0;z-index:-1;opacity:.3;background-image:url('assets/format-pattern.webp');background-size:620px auto;background-repeat:repeat;background-position:center;pointer-events:none}
+.format-pattern:before{content:'';position:absolute;inset:0;z-index:-1;opacity:.3;background-image:url('format-pattern.webp');background-size:620px auto;background-repeat:repeat;background-position:center;pointer-events:none}
 .format-pattern:before{opacity:.5}
 .top .telegram-brand{opacity:.5}
 
